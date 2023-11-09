@@ -1,0 +1,56 @@
+1-What is source code management
+=used to track modifications to a source code repository.
+2-What is Git
+- a version control system used for tracking changes in computer files.
+3-What is GitHub
+- a code hosting platform for version control and collaboration.
+4-What is the difference between Git and GitHub
+-The main Git vs GitHub difference is in their functionality. While they both provide source code management (SCM) and make merging and sharing code easier, this is pretty much where their similarities end. Think of Git as a single computer and GitHub as a network of multiple interconnected computers, all with the same end goal but a wildly different role for how to get there.
+5-How to create a repository
+-In the upper-right corner of any page, select , then click New repository.
+Optionally, add a description of your repository. ...
+Choose a repository visibility. ...
+Select Initialize this repository with a README.
+Click Create repository.
+
+6-What is a README
+- to explain what is uploaded and how we can install or use it
+7-How to write good READMEs
+A very important thing to note is that there's not one right way to structure a good README. But there is one very wrong way, and that is to not include a README at all.
+
+From research and studying various README files, for sure there are some best practices that I have found. And that's what I will be sharing. As I usually tell my self:
+-
+8-How to commit
+-git commit "   "
+10-How to push code
+-git add .
+git commit -m "Add existing project files to Git"
+git push -u -f origin master
+11-How to pull updates
+-PULL Request through Command Line.
+Fork the Repository.
+Open your bash in your computer.
+Make a new branch.
+Make a change by using vim from bash or direct replacement from the original README file.
+Adding and Committing a file to the repository.
+Push the repository to the GitHub.
+PULL request for a specific branch on GitHub.
+
+12-How to create a branch
+-new-branch-name command
+13-How to merge branches
+use git checkout to switch to the branch you want to merge into. This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch
+-
+14-How to work as collaborators on a project
+-Improve communication within the team. ...
+-Be as transparent as possible. ...
+-Get everyone involved. ...
+-Encourage members who take the initiative. ...
+-Get rid of the walls. ...
+-Optimize office meetings. ...
+-Keep your team happy and motivated. ...
+-Use project collaboration tools.
+
+
+15-which files should and which files should not appear in your repo
+-code files, project files, scripts, resources
